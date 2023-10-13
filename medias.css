@@ -1,0 +1,17 @@
+@media (max-width: 412px){
+    .container{
+        flex-direction: column-reverse;
+        width: 412px;
+        height: 100%;
+        padding: 0;
+    }
+    .banner-img{
+        background-image: url("assets/images/illustration-sign-up-mobile.svg");
+        z-index: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40%;
+        width: 100%;
+        margin: 0;
+    }
+}
